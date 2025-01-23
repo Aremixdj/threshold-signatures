@@ -32,7 +32,7 @@ rand = "0.7.3"
 strum = "0.18.0"
 strum_macros = "0.18.0"
 futures = "0.3.1"
-tokio = { version = "0.3.4", features = ["time", "rt-multi-thread", "macros"] }
+tokio = { version = "1.43.0", features = ["time", "rt-multi-thread", "macros"] }
 tokio-util = { version = "0.3.1", features = ["codec"] }
 trace = { version = "0.3.1",  git = "https://github.com/vnermolaev/trace.git" }
 crossbeam-channel = "0.4.0"
